@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4B123C8A-A5C2-4599-88D6-00A2D9F7548E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93AB8645-8150-4B29-96D7-52B05FA999E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "test-unity-udp-csharp-server", "src\test-unity-udp-csharp-server\test-unity-udp-csharp-server.xproj", "{28D6DD38-51CB-431C-B199-14A7DEFCEA5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28D6DD38-51CB-431C-B199-14A7DEFCEA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D6DD38-51CB-431C-B199-14A7DEFCEA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D6DD38-51CB-431C-B199-14A7DEFCEA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D6DD38-51CB-431C-B199-14A7DEFCEA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28D6DD38-51CB-431C-B199-14A7DEFCEA5D} = {4B123C8A-A5C2-4599-88D6-00A2D9F7548E}
+	EndGlobalSection
+EndGlobal
